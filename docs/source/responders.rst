@@ -1,17 +1,7 @@
 Responders
 ==========
 
-Responders are responsible for message processing, shirka comes with a nice set of responders:
-
-* rageface
-* whois
-* math
-* wat
-* xkcd
-* ascii
-* 9gag
-* jira
-
+Responders are responsible for message processing, shirka comes with a nice set of responders.
 
 rageface
 --------
@@ -57,9 +47,13 @@ example
 .. code-block:: none
 
     math 1 + 1
-    # output
-    # 1 + 1
-    # => 2.0
+
+output
+
+.. code-block:: none
+
+    1 + 1
+    => 2.0
 
 wat
 ---

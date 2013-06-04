@@ -6,7 +6,19 @@
 Welcome to python-shirka's documentation!
 =========================================
 
-This a bot based on twisted, mostly a python learning project
+Shirka is a **python** based **bot** heavily relying on **twisted**, it's mostly a python learning project.
+
+The principle is quite simple, you have a **consumer** which is able to collect/send messages,
+messages collected by the **consumer** are passed to **responders**, if a **responder** 'supports'
+the **message**, it should send a message back to the **consumer**.
+
+**input messages** can be referred to as **commands**.
+
+.. code-block:: none
+
+   +------------------------------------------------+
+   |  messages  <--->  consumer  <--->  responders  |
+   +------------------------------------------------+
 
 Contents:
 
