@@ -16,6 +16,7 @@ Contents:
    install
    config
    start
+   responders
 
 
 
