@@ -1,7 +1,7 @@
-start.py
-========
+The startup file
+================
 
-Below, what your startup file should look like
+Below, what your startup file (start.py) should look like
 
 .. code-block:: python
 

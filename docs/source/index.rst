@@ -28,7 +28,9 @@ Contents:
    install
    config
    start
+   consumers
    responders
+   testing
 
 
 
